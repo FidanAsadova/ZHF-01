@@ -1,0 +1,22 @@
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.container:hover {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+.container:hover .text {
+  font-size: 30px;
+}
+
+.div2 h4:nth-child(even) {
+  background-color: aquamarine;
+}
+.div2 h4:first-child {
+  background-color: red;
+  font-size: 50px;
+}
