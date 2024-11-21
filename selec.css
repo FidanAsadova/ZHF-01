@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+      display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 3px dotted black;
+    padding: 20px  10px 15px 30px;
+    margin: 20px 20px;
+  
+}
+
+/* yuxari, sag, asagi, sol  */
+
+button{
+    padding: 15px 20px;
+}
