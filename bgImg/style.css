@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background-image: url("./cat11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.container2 {
+  height: 100vh;
+  background-image: url("./pexels-amar-28921096.jpg");
+  background-attachment: fixed;
+}
+.container3 {
+  height: 100vh;
+  background-image: url("./pexels-hudson-mcdonald-692563691-28193003.jpg");
+}
+
+.container4{
+    height: 100vh;
+    /* background-image: url("./cat33.avif");
+    background-position: right;
+    background-repeat: no-repeat; */
+    background-color: #059862;
+}
