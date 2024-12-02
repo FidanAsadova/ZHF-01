@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* home section */
+
+#homeSec {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./img/bg_1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 160px;
+}
+
+#homeSec header .head {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+#homeSec header .head .logo span {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#homeSec header .head nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+#homeSec header .head nav ul {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+
+#homeSec header .head nav ul a {
+  color: white;
+}
+
+#homeSec .homePage {
+  display: flex;
+  width: 55%;
+  padding: 60px 0;
+}
+
+#homeSec .homePage .homeInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+}
+
+#homeSec .homePage .homeInfo .hiThere {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0779e4;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: white;
+  width: 70px;
+  padding: 5px 3px;
+  border-radius: 5px;
+}
+#homeSec .homePage .homeInfo .iAmKeannu {
+  font-size: 50px;
+}
+
+#homeSec .homePage .homeInfo .infoBody {
+  line-height: 2;
+}
+
+#homeSec .homePage .homeInfo .btns {
+  display: flex;
+  gap: 15px;
+}
+
+#homeSec .homePage .homeInfo .btns .btnStyle {
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+#homeSec .homePage .homeInfo .btns .hireMe {
+  background-color: #0779e4;
+  color: white;
+}
+#homeSec .homePage .homeInfo .btns .view {
+  color: #0779e4;
+  background-color: white;
+}
+
+#homeSec .homePage .homeInfo .icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+#homeSec .homePage .homeInfo .icons a {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+/* about section */
