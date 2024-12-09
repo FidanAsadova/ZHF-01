@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  column-gap: 20px;
+}
+
+.card {
+  height: 100px;
+  width: 100px;
+}
+
+.card:nth-child(1) {
+  background-color: red;
+}
+.card:nth-child(2) {
+  background-color: rebeccapurple;
+}
+.card:nth-child(3) {
+  background-color: green;
+}
+
+.card:nth-child(4) {
+  background-color: gray;
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+
+}
